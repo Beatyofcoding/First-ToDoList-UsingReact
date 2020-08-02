@@ -7,7 +7,8 @@ class App extends React.Component{
     return(
           <header>
             <form id="to-do-form">
-              
+              <input type="text" placeholder="Enter Text Here" />
+
             </form>
           </header>    )
   }
