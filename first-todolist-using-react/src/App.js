@@ -11,7 +11,8 @@ class App extends React.Component{
               <button type="submit">Add</button>
 
             </form>
-          </header>    )
+          </header>   
+           );
   }
 }
 
