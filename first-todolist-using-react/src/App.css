@@ -3,4 +3,5 @@ body{
 }
 .App {
   background-color: darkmagenta;
+  min-height: 500px;
 }
