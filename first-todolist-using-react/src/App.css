@@ -5,4 +5,5 @@ body{
   background-color: darkmagenta;
   min-height: 500px;
   width: 300px;
+  margin: 50px auto;
 }
