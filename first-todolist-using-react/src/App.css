@@ -24,3 +24,7 @@ body{
 #to-do-form input:focus{
   outline: none;
 }
+#to-do-form input button{
+  height: 40px;
+} 
+
