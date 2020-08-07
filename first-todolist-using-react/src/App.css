@@ -26,5 +26,6 @@ body{
 }
 #to-do-form input button{
   height: 40px;
+  width: 70px;
 } 
 
