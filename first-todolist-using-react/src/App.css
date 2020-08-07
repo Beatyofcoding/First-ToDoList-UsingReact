@@ -21,3 +21,6 @@ body{
 #to-do-form input::placeholder{
   color: rgba(200, 200, 200, 0.9);
 }
+#to-do-form input:focus{
+  outline: none;
+}
