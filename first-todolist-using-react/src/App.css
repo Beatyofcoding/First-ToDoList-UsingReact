@@ -21,7 +21,7 @@ body{
 #to-do-form input::placeholder{
   color: rgba(200, 200, 200, 0.9);
 }
-#to-do-form input:focus;#to-do-form button:focus{
+#to-do-form input:focus,#to-do-form button:focus{
   outline: none;
 }
 #to-do-form input button{
