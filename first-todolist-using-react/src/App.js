@@ -8,7 +8,8 @@ class App extends React.Component{
     this.state={
       items:[],
       currentItem:{
-      text:
+      text:"",
+      key:""
       }
 
     }
