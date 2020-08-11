@@ -18,7 +18,7 @@ class App extends React.Component{
     return(
       <div className="App">
                   <header>
-            <form id="to-do-form">
+            <form id="to-do-form" onSubmit={this.addItem} >
               <input type="text" placeholder="Enter Text Here"
               value={this.state.currentItem.text}
               onChange={this.handleInput} />
