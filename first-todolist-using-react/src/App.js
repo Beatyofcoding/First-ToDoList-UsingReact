@@ -20,7 +20,8 @@ class App extends React.Component{
                   <header>
             <form id="to-do-form">
               <input type="text" placeholder="Enter Text Here"
-              value={this.state.currentItem.text} />
+              value={this.state.currentItem.text}
+              onChange={this.handleInput} />
               <button type="submit">Add</button>
 
             </form>
