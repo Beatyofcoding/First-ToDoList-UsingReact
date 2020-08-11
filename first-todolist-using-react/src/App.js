@@ -14,6 +14,7 @@ class App extends React.Component{
 
     }
   }
+  handleInput(){}
   render(){
     return(
       <div className="App">
