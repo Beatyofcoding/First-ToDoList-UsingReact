@@ -14,13 +14,16 @@ class App extends React.Component{
 
     }
   }
-  handleInput(){
+  handleInput(e){
+    this.setState({
     currentItem:{
-      text: e.target.value,
-      key:Date.now()
-
+    text: e.target.value,
+    key:Date.now()
+    
     }
-  }
+  })
+}
+
   render(){
     return(
       <div className="App">
