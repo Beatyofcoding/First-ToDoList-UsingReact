@@ -16,7 +16,8 @@ class App extends React.Component{
   }
   handleInput(){
     currentItem:{
-      text: e.target.value
+      text: e.target.value,
+      key:Date.now()
 
     }
   }
