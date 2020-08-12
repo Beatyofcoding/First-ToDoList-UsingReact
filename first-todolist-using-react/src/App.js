@@ -14,7 +14,11 @@ class App extends React.Component{
 
     }
   }
-  handleInput(){}
+  handleInput(){
+    currentItem:{
+      
+    }
+  }
   render(){
     return(
       <div className="App">
