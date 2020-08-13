@@ -26,6 +26,7 @@ class App extends React.Component{
 addItem(e){
   e.preventDefault();
   const newItem = this.state.currentItem;
+  console.log(newItem);
 }
 
   render(){
