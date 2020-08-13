@@ -23,6 +23,9 @@ class App extends React.Component{
     }
   })
 }
+addItem(e){
+  
+}
 
   render(){
     return(
