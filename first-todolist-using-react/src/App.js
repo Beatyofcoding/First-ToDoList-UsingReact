@@ -24,7 +24,7 @@ class App extends React.Component{
   })
 }
 addItem(e){
-  
+  e.preventDefault();
 }
 
   render(){
