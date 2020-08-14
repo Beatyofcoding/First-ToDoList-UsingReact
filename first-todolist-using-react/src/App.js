@@ -11,8 +11,8 @@ class App extends React.Component{
       text:"",
       key:""
       }
-this.handleInput = this.handleInput.bind(this);
     }
+    this.handleInput = this.handleInput.bind(this);
   }
   handleInput(e){
     this.setState({
