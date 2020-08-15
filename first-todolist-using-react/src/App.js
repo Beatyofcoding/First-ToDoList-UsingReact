@@ -32,7 +32,10 @@ addItem(e){
   if(newItem.text!==""){
     const newItems=[...this.state.items, newItems];
     this.setState({
-      items:newItems
+      items:newItems,
+      currentItem:{
+        text:"";
+      }
     })
   }
 }
