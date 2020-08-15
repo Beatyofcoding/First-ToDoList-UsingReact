@@ -30,7 +30,7 @@ addItem(e){
   const newItem = this.state.currentItem;
   console.log(newItem);
   if(newItem.text!==""){
-    const items=[...this.state.items, newItems];
+    const newItems=[...this.state.items, newItems];
   }
 }
 
