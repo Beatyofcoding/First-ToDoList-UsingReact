@@ -31,6 +31,9 @@ addItem(e){
   console.log(newItem);
   if(newItem.text!==""){
     const newItems=[...this.state.items, newItems];
+    this.setState({
+      items:newItems
+    })
   }
 }
 
