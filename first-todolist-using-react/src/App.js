@@ -34,7 +34,8 @@ addItem(e){
     this.setState({
       items:newItems,
       currentItem:{
-        text:"";
+        text:"",
+        key:""
       }
     })
   }
