@@ -10,7 +10,7 @@ function ListItems(props){
             </div>
         })
     return(
-
+    <div>{listItems}</div>
         )
 }
 export default ListItems;
