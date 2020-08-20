@@ -14,7 +14,7 @@ class App extends React.Component{
       }
     }
     this.handleInput = this.handleInput.bind(this);
-    this.addItem = this.handleInput.bind(this);
+    this.addItem = this.addItem.bind(this);
 
   }
   handleInput(e){
