@@ -54,7 +54,7 @@ addItem(e){
 
             </form>
           </header>   
-          <ListItems></ListItems>
+          <ListItems items = {this.state.items}></ListItems>
       </div>
 
            );
