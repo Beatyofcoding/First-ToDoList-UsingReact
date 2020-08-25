@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ListItems from "./ListItems"
+import ListItems from "./ListItems";
+import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
 class App extends React.Component{
   constructor(props){
