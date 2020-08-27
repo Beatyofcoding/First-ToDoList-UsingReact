@@ -8,10 +8,12 @@ function ListItems(props){
     const listItems = items.map(item =>
         {
             return <div className="list" key="item.key">
+                <p>{item.text}
                 <span>
                     <FontAwesomeIcon className="faicons" icon="trash" />
                 </span>
-                <p>{item.text}</p>
+                </p>
+                
             </div>
         })
     return(
