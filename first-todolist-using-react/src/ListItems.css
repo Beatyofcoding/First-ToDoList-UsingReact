@@ -9,3 +9,6 @@
 .list p{
     padding: 7px;
 }
+.list p span{
+    position: absolute;
+}
