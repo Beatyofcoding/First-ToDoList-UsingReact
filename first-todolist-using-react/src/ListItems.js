@@ -12,7 +12,7 @@ function ListItems(props){
                 <span>
                     <FontAwesomeIcon className="faicons"
                      icon="trash"
-                     onClick={ () => props.deleteItems }  />
+                     onClick={ () => props.deleteItems(item.key) }  />
                     
                 </span>
                 </p>
