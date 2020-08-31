@@ -10,10 +10,13 @@ function ListItems(props){
             return <div className="list" key="item.key">
                 <p>{item.text}
                 <span>
-                    <FontAwesomeIcon className="faicons" icon="trash" />
+                    <FontAwesomeIcon className="faicons"
+                     icon="trash"
+                     onClick={ () => props.deleteItems }  />
+                    
                 </span>
                 </p>
-                
+
             </div>
         })
     return(
