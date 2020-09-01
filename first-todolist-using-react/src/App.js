@@ -43,6 +43,9 @@ addItem(e){
     })
   }
 }
+deleteItem(key){
+  const filteredItem = this.state.items.filter
+}
 
   render(){
     return(
