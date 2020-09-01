@@ -44,7 +44,7 @@ addItem(e){
   }
 }
 deleteItem(key){
-  const filteredItem = this.state.items.filter
+  const filteredItems = this.state.items.filter(item => item!==key);
 }
 
   render(){
