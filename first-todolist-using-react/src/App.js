@@ -56,7 +56,9 @@ addItem(e){
 
             </form>
           </header>   
-          <ListItems items = {this.state.items}></ListItems>
+          <ListItems items = {this.state.items}>
+            deleteItem ={this.deleteItem}
+          </ListItems>
       </div>
 
            );
