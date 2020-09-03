@@ -18,6 +18,8 @@ class App extends React.Component{
     }
     this.handleInput = this.handleInput.bind(this);
     this.addItem = this.addItem.bind(this);
+    this.deleteItem = this.delteItem.bind(this);
+
 
   }
   handleInput(e){
