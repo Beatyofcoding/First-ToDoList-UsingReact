@@ -46,7 +46,7 @@ addItem(e){
 deleteItem(key){
   const filteredItems = this.state.items.filter(item => item!==key);
   this.setState({
-    items:filteredItems;
+    items:filteredItems
   })
 
 }
