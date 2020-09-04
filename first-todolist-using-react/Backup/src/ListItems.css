@@ -1,0 +1,21 @@
+.list{
+    color: royalblue;
+    width: 270px;
+    background-color: salmon;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 7px;
+}
+.list p{
+    padding: 7px;
+    position: relative;
+}
+.list p span{
+    position: absolute;
+    right: 11px;
+    cursor: pointer;
+}
+.faincons{
+    margin: 0 5px;
+    font-size: 17px;
+}
