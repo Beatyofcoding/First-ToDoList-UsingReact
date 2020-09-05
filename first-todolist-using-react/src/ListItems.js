@@ -10,7 +10,7 @@ function ListItems(props){
             return <div className="list" key={item.key}>
                 <p>
                 <input type="text" 
-                id={item.text}
+                id={item.key}
                  value ={item.text}/>
                 <span>
                     <FontAwesomeIcon className="faicons"
