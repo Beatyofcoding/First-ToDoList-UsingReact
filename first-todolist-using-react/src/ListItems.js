@@ -13,7 +13,10 @@ function ListItems(props){
                 id={item.key}
                  value ={item.text}/>
                  onChange = {
-                     
+                     (e) =>{
+                         props.setUpdate()
+                     }
+
                  }
                 <span>
                     <FontAwesomeIcon className="faicons"
