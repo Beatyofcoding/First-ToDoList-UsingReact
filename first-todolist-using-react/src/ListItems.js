@@ -12,6 +12,9 @@ function ListItems(props){
                 <input type="text" 
                 id={item.key}
                  value ={item.text}/>
+                 onChange = {
+                     
+                 }
                 <span>
                     <FontAwesomeIcon className="faicons"
                      icon="trash"
