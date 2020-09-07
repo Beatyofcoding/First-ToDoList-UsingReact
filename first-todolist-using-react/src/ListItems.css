@@ -29,3 +29,8 @@
     font-size: 15px;
     cursor: pointer;
 }
+.list p input{
+    background-color: transparent;
+    border: 0;
+
+}
